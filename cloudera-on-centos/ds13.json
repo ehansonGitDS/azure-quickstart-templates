@@ -56,7 +56,7 @@
     },
     "vnetNewOrExisting" : {
       "type" : "string",
-      "defaultValue": "new",
+      "defaultValue": "existing",
       "allowedValues": [
         "new",
         "existing"
@@ -81,21 +81,21 @@
     },
     "addressPrefix": {
       "type": "string",
-      "defaultValue": "10.3.0.0/16",
+      "defaultValue": "10.0.0.0/16",
       "metadata": {
         "description": "Virtual Network address CIDR"
       }
     },
     "subnetPrefix": {
       "type": "string",
-      "defaultValue": "10.3.0.0/16",
+      "defaultValue": "10.0.0.0/16",
       "metadata": {
         "description": "CIDR for the subnet where VMs will be placed"
       }
     },
     "masterNodeIPAddress": {
       "type": "string",
-      "defaultValue": "10.3.0.4",
+      "defaultValue": "10.0.0.4",
       "metadata": {
         "description": "IP address for the first master"
       }

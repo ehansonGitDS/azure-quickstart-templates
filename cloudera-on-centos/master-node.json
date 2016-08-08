@@ -346,7 +346,7 @@
           "dataDisks": [
             {
               "name": "datadisk0",
-              "diskSizeGB": "512",
+              "diskSizeGB": "128",
               "lun": 0,
               "vhd": {
                 "Uri": "[concat('http://', variables('storageAccountName'), copyIndex(), '.blob.core.windows.net/vhds0/', variables('vmName'), '-datadisk0.vhd')]"
@@ -355,7 +355,7 @@
             },
             {
               "name": "datadisk1",
-              "diskSizeGB": "512",
+              "diskSizeGB": "128",
               "lun": 1,
               "vhd": {
                 "Uri": "[concat('http://', variables('storageAccountName'), copyIndex(), '.blob.core.windows.net/vhds1/', variables('vmName'), '-datadisk1.vhd')]"
@@ -364,7 +364,7 @@
             },
             {
               "name": "datadisk2",
-              "diskSizeGB": "512",
+              "diskSizeGB": "128",
               "lun": 2,
               "vhd": {
                 "Uri": "[concat('http://', variables('storageAccountName'), copyIndex(), '.blob.core.windows.net/vhds2/', variables('vmName'), '-datadisk2.vhd')]"
@@ -373,7 +373,7 @@
             },
             {
               "name": "datadisk3",
-              "diskSizeGB": "512",
+              "diskSizeGB": "128",
               "lun": 3,
               "vhd": {
                 "Uri": "[concat('http://', variables('storageAccountName'), copyIndex(), '.blob.core.windows.net/vhds3/', variables('vmName'), '-datadisk3.vhd')]"
